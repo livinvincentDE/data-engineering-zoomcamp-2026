@@ -23,3 +23,17 @@
 - ✅ Process **NYC Taxi data (Yellow & Green)** for **2019–2021**
 
 ✨ Built end-to-end **ETL pipelines** to automatically extract, transform, and load taxi trip data.
+
+---
+
+##  🚀 Week 3 : Data Warehousing with BigQuery.
+
+✅ Create external tables from GCS bucket data
+✅ Build materialized tables in BigQuery
+✅ Partition and cluster tables for performance
+✅ Understand columnar storage and query optimization
+✅ Analyze NYC taxi data at scale
+
+✨ Working with 20M+ records and learning how partitioning reduces query costs!
+
+---
