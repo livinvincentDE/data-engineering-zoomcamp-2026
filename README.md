@@ -28,11 +28,11 @@
 
 ##  🚀 Week 3 : Data Warehousing with BigQuery.
 
-✅ Create external tables from GCS bucket data
-✅ Build materialized tables in BigQuery
-✅ Partition and cluster tables for performance
-✅ Understand columnar storage and query optimization
-✅ Analyze NYC taxi data at scale
+- ✅ Create external tables from GCS bucket data
+- ✅ Build materialized tables in BigQuery
+- ✅ Partition and cluster tables for performance
+- ✅ Understand columnar storage and query optimization
+- ✅ Analyze NYC taxi data at scale
 
 ✨ Working with 20M+ records and learning how partitioning reduces query costs!
 
