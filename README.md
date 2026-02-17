@@ -37,3 +37,18 @@
 ✨ Working with 20M+ records and learning how partitioning reduces query costs!
 
 ---
+
+# 🚀 Week 4 : **Module 4 – Analytics Engineering with dbt**
+
+- ✅ Build transformation models with dbt  
+- ✅ Create staging, intermediate, and fact tables  
+- ✅ Write tests to ensure data quality  
+- ✅ Understand lineage and model dependencies  
+- ✅ Analyze revenue patterns across NYC zones  
+
+✨ Transforming raw data into analytics-ready models — the **T in ELT**!
+
+---
+
+
+
