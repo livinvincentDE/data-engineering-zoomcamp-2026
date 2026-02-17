@@ -1,0 +1,38 @@
+[0m12:55:43.214330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F811DD490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F811DDE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F811DE2D0>]}
+
+
+============================== 12:55:43.214330 | 0cfb48b1-c4b8-4426-9113-0d84c920a643 ==============================
+[0m12:55:43.214330 [info ] [MainThread]: Running with dbt=1.11.5
+[0m12:55:43.214330 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'invocation_command': 'dbt run --select fct_monthly_zone_revenue', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\ADMIN\\Desktop\\Study_Material_2025\\dbt_demo\\taxi_rides_ny\\logs'}
+[0m12:55:43.438661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0cfb48b1-c4b8-4426-9113-0d84c920a643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F8231FE50>]}
+[0m12:55:43.483738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0cfb48b1-c4b8-4426-9113-0d84c920a643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027FFFF07B50>]}
+[0m12:55:43.483738 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:55:43.710612 [debug] [MainThread]: checksum: 917838c7befe257b9b22a76c21e5785f6f23ac83ef0336e2870f03c9c3f28402, vars: {}, profile: , target: , version: 1.11.5
+[0m12:55:43.712616 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:55:43.712616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0cfb48b1-c4b8-4426-9113-0d84c920a643', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F824CEB50>]}
+[0m12:55:44.730296 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.taxi_rides_ny.fct_monthly_zone_revenue' (models\example\fct_monthly_zone_revenue.sql) depends on a node named 'stg_green_tripdata' which was not found
+[0m12:55:44.730296 [debug] [MainThread]: Command `dbt run` failed at 12:55:44.730296 after 1.63 seconds
+[0m12:55:44.740158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F80F73590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F821F1ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027FF9422DD0>]}
+[0m12:55:44.740158 [debug] [MainThread]: Flushing usage events
+[0m12:55:46.344751 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:56:30.009898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180C913E5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180C8ED3A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180C8ED3210>]}
+
+
+============================== 12:56:30.013556 | f676a4d6-2135-45f5-969f-f42454277255 ==============================
+[0m12:56:30.013556 [info ] [MainThread]: Running with dbt=1.11.5
+[0m12:56:30.013556 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\ADMIN\\.dbt', 'invocation_command': 'dbt run --select fct_monthly_zone_revenue', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\ADMIN\\Desktop\\Study_Material_2025\\dbt_demo\\taxi_rides_ny\\logs'}
+[0m12:56:30.190906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f676a4d6-2135-45f5-969f-f42454277255', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180CA1788D0>]}
+[0m12:56:30.254316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f676a4d6-2135-45f5-969f-f42454277255', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180C8123E10>]}
+[0m12:56:30.254316 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m12:56:30.430444 [debug] [MainThread]: checksum: 917838c7befe257b9b22a76c21e5785f6f23ac83ef0336e2870f03c9c3f28402, vars: {}, profile: , target: , version: 1.11.5
+[0m12:56:30.430444 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:56:30.430444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f676a4d6-2135-45f5-969f-f42454277255', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180CA1DE590>]}
+[0m12:56:31.354555 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.taxi_rides_ny.fct_monthly_zone_revenue' (models\example\fct_monthly_zone_revenue.sql) depends on a node named 'stg_green_tripdata' which was not found
+[0m12:56:31.354555 [debug] [MainThread]: Command `dbt run` failed at 12:56:31.354555 after 1.43 seconds
+[0m12:56:31.370646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180C9135710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180C9149090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180C1442D90>]}
+[0m12:56:31.370646 [debug] [MainThread]: Flushing usage events
+[0m12:56:32.826836 [debug] [MainThread]: An error was encountered while trying to flush usage events
