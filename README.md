@@ -60,7 +60,6 @@
 - ✅ Add data quality checks to ensure data integrity
 - ✅ Deploy pipelines from local to cloud (BigQuery)
 
-Modern data platforms in a single CLI tool — no vendor lock-in.
 
 
 
