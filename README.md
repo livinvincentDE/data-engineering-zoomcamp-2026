@@ -38,7 +38,7 @@
 
 ---
 
-# 🚀 Week 4 : Module 4 – Analytics Engineering with dbt
+##  🚀 Week 4 : Module 4 – Analytics Engineering with dbt
 
 - ✅ Build transformation models with dbt  
 - ✅ Create staging, intermediate, and fact tables  
@@ -50,7 +50,7 @@
 
 ---
 
-# 🚀 Week 5 : Data Platforms with Bruin & how DE Platform can be built using a single CLI tool.
+##  🚀 Week 5 : Data Platforms with Bruin & how DE Platform can be built using a single CLI tool.
 
 ### 📘 What I Learned
 
