@@ -50,7 +50,7 @@
 
 ---
 
-# 🚀 Week 5 : **Data Platforms with Bruin** and explored how modern data platforms can be built using a single CLI tool.**
+# 🚀 Week 5 : **Data Platforms with Bruin & how DE Platform can be built using a single CLI tool.**
 
 ### 📘 What I Learned
 
