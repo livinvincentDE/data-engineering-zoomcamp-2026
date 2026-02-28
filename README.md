@@ -52,13 +52,23 @@
 
 ##  🚀 Week 5 : Data Platforms with Bruin & how DE Platform can be built using a single CLI tool.
 
-### 📘 What I Learned
-
 - ✅ Build end-to-end ELT pipelines with **Bruin**
 - ✅ Configure environments and connections
 - ✅ Use materialization strategies for incremental processing
 - ✅ Add data quality checks to ensure data integrity
 - ✅ Deploy pipelines from local to cloud (BigQuery)
+---
+
+## 🚀 Week 6: dlt Workshop – REST API Pipelines with DuckDB
+
+- ✅ Build REST API data pipelines using **dlt**
+- ✅ Handle paginated API ingestion (1,000 records per page)
+- ✅ Use AI-assisted development with the **dlt MCP Server**
+- ✅ Load API data directly into **DuckDB**
+- ✅ Inspect pipeline metadata with the dlt Dashboard
+- ✅ Query datasets using DuckDB & marimo notebooks
+
+ --- 
 
 
 
